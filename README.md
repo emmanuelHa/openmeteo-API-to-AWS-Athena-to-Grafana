@@ -64,8 +64,6 @@ An example of response:
 - AWS Glue Crawler
 - AWS Athena
 - AWS Glue Jobs
-
-
 - SQL
 - Parquet format
 - AWS Workflow
