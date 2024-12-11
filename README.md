@@ -64,6 +64,8 @@ An example of response:
 - AWS Glue Crawler
 - AWS Athena
 - AWS Glue Jobs
+
+
 - SQL
 - Parquet format
 - AWS Workflow
@@ -129,4 +131,14 @@ https://emmanuelharelgrafana.grafana.net/dashboard/snapshot/qnzYnGhLx3i5yMg7QP0k
 - Add IAC, which is a big task
 </br>
 </br>
+
+
+## What I learnt ?
+- How to decouple a lambda to S3, to make writes to S3 scalable ?
+- How to automatically generate S3 partitions from ingestion time ?
+I have been part of a project where we had to write to HDFS some avro data. The partitioning (day/month/hour/minute) 
+had to be done programatically
+- How to write parquet files to Athena within a partitioned table
+- How to plug a BI tool and avoid cost from scy rocking using a cache
+
 
