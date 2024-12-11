@@ -63,12 +63,12 @@ An example of response:
 - AWS S3
 - AWS Glue Crawler
 - AWS Athena
-- AWS Jobs
+- AWS Glue Jobs
 - SQL
 - Parquet format
 - AWS Workflow
 - AWS ClouWatch
-- Grafana
+- Grafana  
 So the stack is centered around AWS.  
 
 Advantages:
@@ -83,7 +83,7 @@ Advantages:
 </br>
 
 ## Data Transformation
-The following choices are been made:
+The following choices have been made:
 - Each Athena tables are "backed" temporarily by an S3 Bucket 
 - Each SQL request results are "backed" by an S3 Bucket. 
 - CSV files are transformed to Parquet file format to leverage its query performances.
@@ -104,12 +104,13 @@ They were created without any line of code!
 <img width="4896" alt="Architecture" src="./docs/Athena_parquet_table.png">
 
 </br>
-You noticed a brand new partition column created by a python Glue Job
+You noticed a brand new partition column (yr_mo_partition) created by a python Glue Job
 </br>
 <img width="4896" alt="Architecture" src="./docs/AWS_Glue_Workflow_part2.png">
 </br>
+
 4) Data Quality checks on the parquet table is done    
-5) Data Quality checks is Ok we create a prod table for a specific day and a new prod bucket
+5) When data Quality checks is Ok we create a prod table for a specific day and a new prod bucket
 <img width="4896" alt="Architecture" src="./docs/AWS_S3_prod.png">
 
 ## Dashboard Preview
