@@ -88,7 +88,7 @@ The following choices have been made:
 - Each SQL request results are "backed" by an S3 Bucket. 
 - CSV files are transformed to Parquet file format to leverage its query performances.
 
-<img width="4896" alt="Architecture" src="./docs/AWS_Glue_Workflow_part2.png">
+<img width="4896" alt="Architecture" src="./docs/AWS_Glue_Workflow_part1.png">
 </br>
 Let's see step by step:  
 
