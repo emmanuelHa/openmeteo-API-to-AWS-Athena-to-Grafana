@@ -115,7 +115,7 @@ You noticed a brand new partition column (yr_mo_partition) created by a python G
 
 ## Dashboard Preview
 You can access it:
-https://emmanuelharelgrafana.grafana.net/dashboard/snapshot/qnzYnGhLx3i5yMg7QP0kMlqCk1F4NMlE?orgId=1&from=2024-11-21T04:41:58.442Z&to=2024-12-13T01:23:29.297Z&timezone=browser
+https://emmanuelharelgrafana.grafana.net/dashboard/snapshot/GIWafTzR10t1iMSeHlRdqotLlto7B7aF
 </br>   
 
 <img width="4896" alt="Architecture" src="./docs/temperature_paris_fin_novembre2024.png">
