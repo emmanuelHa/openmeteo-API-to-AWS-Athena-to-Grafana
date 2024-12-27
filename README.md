@@ -132,11 +132,11 @@ https://emmanuelharelgrafana.grafana.net/dashboard/snapshot/GIWafTzR10t1iMSeHlRd
 
 
 ## What I learnt ?
-- How to decouple a lambda to S3, to make writes to S3 scalable ?
-- How to automatically generate S3 partitions from ingestion time ?
+- How to decouple a lambda to S3, to make writes to S3 scalable  
+- How to automatically generate S3 partitions from ingestion time  
 I have been part of a project where we had to write to HDFS some avro data. The partitioning (day/month/hour/minute) 
 had to be done programatically
 - How to write parquet files to Athena within a partitioned table
-- How to plug a BI tool and avoid cost from scy rocking using a cache
+- How to plug a BI tool and avoid cost from sky rocketing using a cache
 
 
