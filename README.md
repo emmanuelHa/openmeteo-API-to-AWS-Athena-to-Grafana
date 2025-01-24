@@ -132,7 +132,8 @@ https://emmanuelharelgrafana.grafana.net/dashboard/snapshot/GIWafTzR10t1iMSeHlRd
 
 
 ## What I learnt ?
-- How to decouple a lambda to S3, to make writes to S3 scalable  
+- How to decouple a lambda to S3, to make writes to S3 scalable
+- How to validate python data with Pydantic  
 - How to automatically generate S3 partitions from ingestion time  
 I have been part of a project where we had to write to HDFS some avro data. The partitioning (day/month/hour/minute) 
 had to be done programatically
